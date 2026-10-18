@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết bài viết</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">DÂN TRÍ</a></div>
+            <div class="crawler-btn-wrapper"><a href="index.html" class="crawler-link-btn">Quay lại trang chủ</a></div>
+        </nav>
+    </header>
+
+    <main class="container detail-container">
+        <article class="post-detail">
+            <div class="post-meta-top">
+                <span id="detail-category" class="badge">Chuyên mục</span>
+                <span id="detail-date" class="date">Ngày đăng</span>
+            </div>
+            <h1 id="detail-title">Tiêu đề bài viết</h1>
+            <p id="detail-excerpt" class="excerpt">Tóm tắt bài viết...</p>
+            <hr>
+            <div id="detail-content" class="content-body"></div>
+            <div class="post-meta-bottom">
+                <p><strong>Tác giả:</strong> <span id="detail-author">Tên tác giả</span></p>
+                <p><strong>Nguồn:</strong> <span id="detail-source">Nguồn</span></p>
+            </div>
+        </article>
+    </main>
+    <script src="js/detail.js"></script>
+</body>
+</html>
