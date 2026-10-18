@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thống Crawler Tin Tức</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">DÂN TRÍ CRAWLER</a></div>
+            <div class="crawler-btn-wrapper"><a href="index.html" class="crawler-link-btn">Về Trang Chủ</a></div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="crawler-box">
+            <h2>Hệ Thống Thu Thập Dữ Liệu Tự Động</h2>
+            <p>Dán đường dẫn bài viết từ trang dantri.com.vn vào ô dưới đây để tiến hành bóc tách:</p>
+            <div class="input-group">
+                <input type="text" id="crawler-url" value="https://dantri.com.vn">
+                <button id="btn-crawl">Tiến hành Crawl ⚡</button>
+            </div>
+            <div id="crawler-result" class="crawler-result hidden">
+                <h3>Dữ liệu bóc tách JSON thành công và đã lưu LocalStorage:</h3>
+                <pre><code id="json-output"></code></pre>
+            </div>
+        </div>
+    </main>
+    <script src="js/crawler.js"></script>
+</body>
+</html>
