@@ -1,0 +1,8 @@
+{
+  "menu": [
+    { "id": "home", "title": "Trang chủ", "url": "index.html" },
+    { "id": "thoi-su", "title": "Thời sự", "url": "#" },
+    { "id": "the-gioi", "title": "Thế giới", "url": "#" },
+    { "id": "bat-dong-san", "title": "Bất động sản", "url": "#" }
+  ]
+}
